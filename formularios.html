@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">Nombre y apellido</label>
+            <input id="name" name="name" placeholder="Nombre y apellido" type="text" required>
+        </div>
+        <div>
+            <label for="age">Edad</label>
+            <input id="age" name="age" placeholder="18" min="18" max="34" type="number">
+        </div>
+        <div>
+            <label for="date">Fecha de nacimiento</label>
+            <input id="date" name="date" type="date">
+        </div>
+        <div>
+            <label for="color">Elige tu color favorito</label>
+            <input id="color" name="color" type="color">
+        </div>
+        <div>
+            <label for="email">Correo</label>
+            <input id="email" name="email" type="email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password">
+        </div>
+        <div>
+            <h2>Sexo</h2>
+            <input type="radio" name="sex" value="f" id="sexf">
+            <label for="sexf">F</label>
+            <input type="radio" name="sex" value="m" id="sexm">
+            <label for="sexm">M</label>
+        </div>
+        <div>
+            <h2>Intereses</h2>
+            <input type="checkbox" id="tech" value="tech"><label for="tech">Tecnologia</label>
+            <input type="checkbox" id="politic" value="politic"><label for="politic">Politica</label>
+            <input type="checkbox" id="moda" value="moda"><label for="moda">Moda</label>
+        </div>
+        <div>
+            <h2>Pais</h2>
+            <select name="" id="">
+                <option value="">SELECCIONAR</option>
+                <option value="1">Peru</option>
+                <option value="2">Argentina</option>
+                <option value="3">Chile</option>
+            </select>
+        </div>
+        <div>
+            <h2>FRUTAS</h2>
+            <select name="" id="" multiple>
+                <option value="1">Manzana</option>
+                <option value="2">Pera</option>
+                <option value="3">Cereza</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">ENVIAR</button>
+            <button type="reset">RESET</button>
+        </div>
+    </form>
+    
+</body>
+</html>
